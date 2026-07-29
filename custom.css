@@ -122,7 +122,7 @@
         overflow: visible !important;
         height: auto !important;
     }
-    .preview-displaycondition-label--cs {
+    /* .preview-displaycondition-label--cs {
         white-space: normal !important;
         overflow: visible !important;
         text-overflow: unset !important;
@@ -136,4 +136,4 @@
         overflow: visible !important;
         max-height: none !important;
         height: auto !important;
-    }
+    } */
