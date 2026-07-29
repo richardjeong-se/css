@@ -132,8 +132,8 @@
         overflow: visible !important;
         text-overflow: unset !important;
     }
-    .dropdown-menu-scrollable--cs {
+    /* .dropdown-menu-scrollable--cs {
         overflow: visible !important;
         max-height: none !important;
         height: auto !important;
-    }
+    } */
