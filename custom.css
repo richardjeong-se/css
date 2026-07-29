@@ -113,9 +113,6 @@
 .preview-displayconditions--cs .dropdown-menu-button--cs {
 	width: 20rem;
 	justify-content: space-between !important;
-	overflow: visible !important;
-	height: auto !important;
-	text-overflow: unset !important;
-	max-height: none !important;
+	word-wrap: break-word;  
 	
 }
