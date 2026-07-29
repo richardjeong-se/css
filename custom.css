@@ -111,8 +111,11 @@
 }
 
 .preview-displayconditions--cs .dropdown-menu-button--cs {
-	width: 60rem;
+	width: 20rem;
 	justify-content: space-between !important;
-	color: red;
+	overflow: visible !important;
+	height: auto !important;
+	text-overflow: unset !important;
+	max-height: none !important;
 	
 }
