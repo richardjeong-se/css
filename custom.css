@@ -64,15 +64,15 @@
   - Icon manager Pop icons color | #ffffff
 */
 
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+/* @import url(https://fonts.googleapis.com/css?family=Roboto); */
 
 /* Hide our default icons */
-.sidebar-draggable-heading--cs .image-drag svg {
+/* .sidebar-draggable-heading--cs .image-drag svg {
   visibility: hidden;
-}
+} */
 
 /* Replace them with yours */
-.sidebar-draggable-heading--cs .image-drag {
+/* .sidebar-draggable-heading--cs .image-drag {
   background: url(https://www.svgrepo.com/show/361517/heading.svg) no-repeat center;
   background-size: contain;
 }
@@ -83,9 +83,9 @@
   background-color: #effcff;
   color: #34778f;
   padding-left: 24px !important;
-}
+} */
 
-.content-labels--cs code[data-bee-code]::after {
+/* .content-labels--cs code[data-bee-code]::after {
   display: inline-block;
   position: absolute;
   top: 50%;
@@ -108,11 +108,32 @@
 
 .floating-toolbar--cs [title="Anonymous"] {
   display: none;
-}
+} */
 
-.preview-displayconditions--cs .dropdown-menu-button--cs {
+/* .preview-displayconditions--cs .dropdown-menu-button--cs {
 	width: 20rem;
 	justify-content: space-between !important;
 	word-wrap: break-word;  
 	
-}
+} */
+
+    .dropdown-menu-item--cs {
+        white-space: normal !important;
+        overflow: visible !important;
+        height: auto !important;
+    }
+    .preview-displaycondition-label--cs {
+        white-space: normal !important;
+        overflow: visible !important;
+        text-overflow: unset !important;
+    }
+    .preview-displaycondition-description--cs {
+        white-space: normal !important;
+        overflow: visible !important;
+        text-overflow: unset !important;
+    }
+    .dropdown-menu-scrollable--cs {
+        overflow: visible !important;
+        max-height: none !important;
+        height: auto !important;
+    }
